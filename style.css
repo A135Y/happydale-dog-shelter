@@ -14,17 +14,20 @@ body {
 }
 
 header {
-font-family: 'Courier New', Courier, monospace;
+display: flex;
+justify-content: space-between;
 }
 
 main {
-  /* your code */
+display: flex;
 }
 main nav {
   border: .1rem solid purple;
   padding: 1rem;
-  /* your code */
+ display: flex;
+  flex-wrap: wrap;
 }
+
 main a {
   width: 5rem;
   border: .1rem solid peru;
@@ -33,7 +36,9 @@ main a {
 }
 
 .dog-list-container {
-  /* your code */
+display: flex;
+justify-content:space-around;
+flex-direction: row;
 }
 
 .fluid-text {
